@@ -1,5 +1,5 @@
 {% set name = "simservice" %}
-{% set version = "0.0.0" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0cdc737cdb7343f404da88e9354b72ce615f681ad00e436cbf528a359e44f153
+  sha256: b0af582237b269ba9905cbc20ebada64ddbc4da75c203578b2f182a31bda78d3
 
 build:
   noarch: python
